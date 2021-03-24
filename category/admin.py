@@ -3,7 +3,7 @@ from .models import Category
 # Register your models here.
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ("name",)
+    list_display = ("name","order")
     list_filter = ("name",)
 
 
